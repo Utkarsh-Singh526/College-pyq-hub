@@ -8,7 +8,7 @@ export default function PYQWebsite() {
   const [semester, setSemester] = useState('');
   const [visitorCount, setVisitorCount] = useState(0);
 
-  const years = [2020, 2021, 2022, 2023-24, 2024-25, 2025-26];
+  const years = [2020, 2021, 2022, 2023, 2024, 2025];
   const branches = ['CSE', 'ME', 'ECE', 'CE', 'EE', 'IT'];
   const semesters = [1, 2, 3, 4, 5, 6, 7, 8];
 
