@@ -8,7 +8,7 @@ export default function PYQWebsite() {
   const [semester, setSemester] = useState('');
   const [visitorCount, setVisitorCount] = useState(0);
 
-  const years = [2020, 2021, 2022, 2023, 2024, 2025];
+  const years = [2020, 2021, 2022, 2023-24, 2024-25, 2025-26];
   const branches = ['CSE', 'ME', 'ECE', 'CE', 'EE', 'IT'];
   const semesters = [1, 2, 3, 4, 5, 6, 7, 8];
 
@@ -28,7 +28,7 @@ export default function PYQWebsite() {
       return;
     }
 
-    const driveLink = "https://drive.google.com/drive/folders/1aDFEBFmFaL5i-Xj-omTNksFxW5op3_6c?usp=drive_link";
+    const driveLink = "https://drive.google.com/drive/folders/1XRjFCThfoQ7FtkAb-qkzaBfoSrBLWjOx?usp=drive_link";
     window.open(driveLink, "_blank", "noopener,noreferrer");
   };
 
@@ -97,14 +97,14 @@ export default function PYQWebsite() {
             <div>
               <h4 className="font-semibold mb-2">Developed By</h4>
               <p className="text-white">Utkarsh Singh</p>
-              <p className="text-gray-400 text-sm">Roll No: 2400100100526</p>
+              {/* <p className="text-gray-400 text-sm">Roll No: 2400100100526</p> */}
               <p className="text-gray-400 text-sm">Department of CSE</p>
             </div>
 
             <div>
               <h4 className="font-semibold mb-2">Contact</h4>
               <p className="text-gray-400 text-sm">📧 US421514@gmail.com</p>
-              <p className="text-gray-400 text-sm">📱 6392860218</p>
+              {/* <p className="text-gray-400 text-sm">📱 6392860218</p> */}
               <a href="https://www.linkedin.com/in/utkarsh-singh-79b192243" target="_blank" className="text-blue-400 hover:text-blue-300 text-sm">
                 🔗 LinkedIn
               </a>
@@ -120,7 +120,7 @@ export default function PYQWebsite() {
           <div className="text-center text-xs text-gray-500 mt-10 pt-6 border-t border-gray-800">
             © 2026 United College of Engineering and Research • All Rights Reserved
             <br />
-            Made with ❤️ by Utkarsh Singh
+            Made with ❤️ by Utkarsh Singh and Ayush Khare
           </div>
         </div>
       </footer>
